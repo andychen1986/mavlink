@@ -2383,6 +2383,9 @@
       <entry value="65536" name="MAV_PROTOCOL_CAPABILITY_FLIGHT_INFORMATION">
         <description>Autopilot supports the flight information protocol.</description>
       </entry>
+      <entry value="262144" name="MAV_PROTOCOL_CAPABILITY_MISSION_ROBOTARMWP">
+        <description>Autopilot supports mission robotarmwp protocol.</description>
+      </entry>
     </enum>
     <enum name="MAV_MISSION_TYPE">
       <description>Type of mission items being requested/sent in mission protocol.</description>
