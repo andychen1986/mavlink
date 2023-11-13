@@ -5466,6 +5466,17 @@
       <field type="uint8_t" name="num_ids">number of IDs in filter list</field>
       <field type="uint16_t[16]" name="ids">filter IDs, length num_ids</field>
     </message>
+
+    <!-- New custom message for TBM project starts here -->
+    <message id="600" name="TBM_POSITIONAL_PARAMETERS">
+      <description>Including the position coordinates of the cutting head, the stroke of the boom cylinder, and the angle value of the encoder of the rotary table.</description>
+      <field type="float" name="rdheader_xb" units="mm">the coordinate of roadheader X in the body frame.</field>
+      <field type="float" name="rdheader_yb" units="mm">the coordinate of roadheader Y in the body frame.</field>
+      <field type="float" name="rdheader_zb" units="mm">the coordinate of roadheader Z in the body frame.</field>
+      <field type="float" name="boom_cylinder_L" units="cm">the stroke of the boom cylinder.</field>
+      <field type="float" name="turning_angle" units="degrees">the angle value of the encoder of the rotary table</field>
+    </message>
+
     <!-- Rover specific messages -->
     <message id="9000" name="WHEEL_DISTANCE">
       <description>Cumulative distance traveled for each reported wheel.</description>
