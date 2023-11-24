@@ -5476,6 +5476,18 @@
       <field type="float" name="boom_cylinder_L" units="cm">the stroke of the boom cylinder.</field>
       <field type="float" name="turning_angle" units="degrees">the angle value of the encoder of the rotary table</field>
     </message>
+    <message id="601" name="TBM_SIM_STATUS">
+      <description>Including the position coordinates of the cutting head, the stroke of the boom cylinder, and the angle value of the encoder of the rotary table.</description>
+      <field type="float" name="rdheader_xb" units="mm">the coordinate of roadheader X in the body frame.</field>
+      <field type="float" name="rdheader_yb" units="mm">the coordinate of roadheader Y in the body frame.</field>
+      <field type="float" name="rdheader_zb" units="mm">the coordinate of roadheader Z in the body frame.</field>
+      <field type="float" name="roll_b">Attitude roll expressed as Euler angles</field>
+      <field type="float" name="pitch_b">Attitude pitch expressed as Euler angles</field>
+      <field type="float" name="yaw_b">Attitude yaw expressed as Euler angles</field>
+      <field type="float" name="boom_cylinder_L" units="cm">the stroke of the boom cylinder.</field>
+      <field type="float" name="support_leg_rad" units="rad">radians of support leg.</field>
+      <field type="float" name="cutting_header_S" units="rad/s">Angular speed of cutting header.</field>
+    </message>
 
     <!-- Rover specific messages -->
     <message id="9000" name="WHEEL_DISTANCE">
