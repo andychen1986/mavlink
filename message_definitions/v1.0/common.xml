@@ -5484,9 +5484,36 @@
       <field type="float" name="roll_b">Attitude roll expressed as Euler angles</field>
       <field type="float" name="pitch_b">Attitude pitch expressed as Euler angles</field>
       <field type="float" name="yaw_b">Attitude yaw expressed as Euler angles</field>
-      <field type="float" name="boom_cylinder_L" units="cm">the stroke of the boom cylinder.</field>
+      <field type="float" name="boom_cylinder_L" units="mm">the stroke of the boom cylinder.</field>
       <field type="float" name="support_leg_rad" units="rad">radians of support leg.</field>
       <field type="float" name="cutting_header_S" units="rad/s">Angular speed of cutting header.</field>
+      <field type="float" name="boom_rad" units="rad">radians of support boom cylinder.</field>
+    </message>
+    <message id="602" name="TBM_UNITY_INTERFACE">
+      <description>tbm unity interface</description>
+      <field type="float" name="HuiZhuanTai_Left_Length" units="mm">HuiZhuanTai_Left_Length</field>
+      <field type="float" name="HuiZhuanTai_Right_Length" units="mm">HuiZhuanTai_Right_Length</field>
+      <field type="float" name="HuiZhuanTai_Left_Angle" units="rad">HuiZhuanTai_Left_Angle</field>
+      <field type="float" name="HuiZhuanTai_Right_Angle" units="rad">HuiZhuanTai_Right_Angle</field>
+      <field type="float" name="HuiZhuanTai_Angle" units="rad">HuiZhuanTai_Angle</field>
+      <field type="float" name="DaBi_SiGan_Angle" units="rad">DaBi_SiGan_Angle</field>
+      <field type="float" name="DaBi_SiGan_Length" units="mm">DaBi_SiGan_Length</field>
+      <field type="float" name="Dianji_Angle_HZT" units="rad">Dianji_Angle_HZT</field>
+      <field type="float" name="JieGeBuShenSuo_Length" units="mm">JieGeBuShenSuo_Length</field>
+      <field type="float" name="JieGeTou_Rot_Speed" units="rad/s">JieGeTou_Rot_Speed</field>
+      <field type="float" name="HouTuiCheng_Angle" units="rad">HouTuiCheng_Angle</field>
+      <field type="float" name="roll">Attitude roll expressed as Euler angles, not recommended except for human-readable outputs</field>
+      <field type="float" name="pitch">Attitude pitch expressed as Euler angles, not recommended except for human-readable outputs</field>
+      <field type="float" name="yaw">Attitude yaw expressed as Euler angles, not recommended except for human-readable outputs</field>
+      <field type="float" name="lat" units="deg">Latitude*1e7</field>
+      <field type="float" name="lon" units="deg">Longitude*1e7</field>
+      <field type="float" name="alt" units="m">Altitude</field>
+      <field type="float" name="vn" units="m/s">True velocity in north direction in earth-fixed NED frame</field>
+      <field type="float" name="ve" units="m/s">True velocity in east direction in earth-fixed NED frame</field>
+      <field type="float" name="vd" units="m/s">True velocity in down direction in earth-fixed NED frame</field>
+      <field type="float" name="xgyro" units="rad/s">Angular speed around X axis</field>
+      <field type="float" name="ygyro" units="rad/s">Angular speed around Y axis</field>
+      <field type="float" name="zgyro" units="rad/s">Angular speed around Z axis</field>
     </message>
 
     <!-- Rover specific messages -->
