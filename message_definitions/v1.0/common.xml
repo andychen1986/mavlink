@@ -5515,6 +5515,27 @@
       <field type="float" name="ygyro" units="rad/s">Angular speed around Y axis</field>
       <field type="float" name="zgyro" units="rad/s">Angular speed around Z axis</field>
     </message>
+    <message id="603" name="EXCAVATOR_INCLINATIONS">
+      <description>Three inclination's data of excavator</description>
+      <field type="float" name="roll_deg_x" units="deg">roll angle of the boom</field>
+      <field type="float" name="roll_deg_y" units="deg">roll angle of the forearm</field>
+      <field type="float" name="roll_deg_z" units="deg">roll angle of the bucket</field>
+      <field type="float" name="pitch_deg_x" units="deg">pitch angle of the boom</field>
+      <field type="float" name="pitch_deg_y" units="deg">pitch angle of the forearm</field>
+      <field type="float" name="pitch_deg_z" units="deg">pitch angle of the bucket</field>
+      <field type="float" name="yaw_deg_x" units="deg">yaw angle of the boom</field>
+      <field type="float" name="yaw_deg_y" units="deg">yaw angle of the forearm</field>
+      <field type="float" name="yaw_deg_z" units="deg">yaw angle of the bucket</field>
+      <field type="float" name="roll_acc_x" units="rad/s">roll angle acceleration of the boom</field>
+      <field type="float" name="roll_acc_y" units="rad/s">roll angle acceleration of the forearm</field>
+      <field type="float" name="roll_acc_z" units="rad/s">roll angle acceleration of the bucket</field>
+      <field type="float" name="pitch_acc_x" units="rad/s">pitch angle acceleration of the boom</field>
+      <field type="float" name="pitch_acc_y" units="rad/s">pitch angle acceleration of the forearm</field>
+      <field type="float" name="pitch_acc_z" units="rad/s">pitch angle acceleration of the bucket</field>
+      <field type="float" name="yaw_acc_x" units="rad/s">yaw angle acceleration of the boom</field>
+      <field type="float" name="yaw_acc_y" units="rad/s">yaw angle acceleration of the forearm</field>
+      <field type="float" name="yaw_acc_z" units="rad/s">yaw angle acceleration of the bucket</field>
+    </message>
 
     <!-- Rover specific messages -->
     <message id="9000" name="WHEEL_DISTANCE">
